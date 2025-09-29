@@ -1,6 +1,6 @@
 import React, { useCallback, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { checkImageDimensions } from '../utils/imageUtils';
+import { checkImageDimensions } from './imageUtils';
 
 interface ImageUploaderProps {
   onImageSelected: (file: File) => void;

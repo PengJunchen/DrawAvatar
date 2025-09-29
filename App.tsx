@@ -2,10 +2,10 @@ import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import i18n from './i18n';
 import type { ImageInfo, Template, HotspotPoint } from './types';
-import AvatarSection from './components/AvatarSection';
-import GeneratedSection from './components/GeneratedSection';
-import TemplateSelector from './components/TemplateSelector';
-import { generateImageFromPrompt, generateImageFromTemplateAndPhoto, retouchImage, downloadImage, generateImageFromTextPrompt } from './services/geminiService';
+import AvatarSection from './AvatarSection';
+import GeneratedSection from './GeneratedSection';
+import TemplateSelector from './TemplateSelector';
+import { generateImageFromPrompt, generateImageFromTemplateAndPhoto, retouchImage, downloadImage, generateImageFromTextPrompt } from './geminiService';
 
 function App() {
   const { t } = useTranslation();
@@ -31,7 +31,7 @@ function App() {
   useEffect(() => {
     const loadTemplates = async () => {
       try {
-        const response = await fetch('/templates/template.json');
+        const response = await fetch('./template.json');
         const data = await response.json();
         
         // 将加载的模板数据转换为应用所需的格式

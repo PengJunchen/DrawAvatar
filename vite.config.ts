@@ -5,6 +5,15 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
   return {
     plugins: [react()],
+    root: '.',
+    build: {
+      rollupOptions: {
+        input: {
+          main: './main.tsx',
+          index: './index.html'
+        }
+      }
+    },
     // 使用define选项直接定义环境变量
     define: {
       'import.meta.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY || '')
