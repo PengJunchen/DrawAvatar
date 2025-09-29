@@ -1,0 +1,5 @@
+{
+  "name": "DrawingAvatar",
+  "description": "Draw avatar with your photo",
+  "requestFramePermissions": []
+}
