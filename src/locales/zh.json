@@ -1,0 +1,82 @@
+{
+  "common": {
+    "appName": "头像绘制",
+    "loading": "加载中...",
+    "generating": "生成中...",
+    "generate": "生成",
+    "apply": "应用",
+    "cancel": "取消",
+    "download": "下载",
+    "crop": "裁剪",
+    "templates": "模板",
+    "confirmReplaceImage": "上传新图片将替换当前图片。"
+  },
+  "header": {
+    "title": "AI 头像生成器",
+    "subtitle": "上传照片，选择模板，生成个性化头像"
+  },
+  "templateSection": {
+    "currentTemplate": "当前模板"
+  },
+  "templateSelection": {
+    "successMessage": "已选择模板，模板提示词已填入输入框"
+  },
+  "imageUploader": {
+    "dragDrop": "拖放图片到这里",
+    "or": "或者",
+    "browse": "浏览文件",
+    "supportedFormats": "支持的格式：JPG、PNG、WebP",
+    "errorType": "请上传图片文件。",
+    "errorSize": "图片大小应小于{{size}}MB。",
+    "errorDimensions": "图片尺寸应至少为{{width}}x{{height}}像素。"
+  },
+  "imageViewer": {
+    "noImage": "暂无图片"
+  },
+  "promptBar": {
+    "placeholder": "输入提示词修改图片...",
+    "modifyPlaceholder": "描述如何修改你的头像...",
+    "templatePlaceholder": "描述如何修改你的模板...",
+    "enhancePlaceholder": "增强或修改你生成的头像..."
+  },
+  "cropTool": {
+    "title": "裁剪图片",
+    "square": "方形",
+    "circle": "圆形"
+  },
+  "retouchTool": {
+    "title": "修饰图片",
+    "promptPlaceholder": "描述在此处要更改的内容...",
+    "keepSubject": "保留此处主体",
+    "removeSubject": "移除此处主体"
+  },
+  "templateSelector": {
+    "title": "选择国庆主题模板",
+    "subtitle": "从30个国庆主题模板中选择一个",
+    "selectPlaceholder": "请选择模板..."
+  },
+  "promptBar": {
+    "placeholder": "输入提示词修改图片...",
+    "modifyPlaceholder": "描述如何修改你的头像...",
+    "templatePlaceholder": "描述如何修改你的模板...",
+    "enhancePlaceholder": "增强或修改你生成的头像...",
+    "personalizeTitle": "个性化你的头像",
+    "personalizeDescription": "添加你的个性化要求，我们将结合模板提示词生成头像",
+    "personalizePrompt": "描述你想要的个性化效果..."
+  },
+  "templateSection": {
+    "title": "头像模板",
+    "noTemplate": "未选择模板"
+  },
+  "avatarSection": {
+    "title": "你的照片",
+    "noImage": "上传你的照片"
+  },
+  "generatedSection": {
+    "title": "生成的头像",
+    "noImageYet": "你生成的头像将显示在这里",
+    "generateAvatar": "生成头像",
+    "needBothImages": "请上传模板和照片以生成头像。",
+    "footerText": "© 2025 Peng Junchen"
+  }
+}

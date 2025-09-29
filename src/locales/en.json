@@ -1,0 +1,81 @@
+{
+  "common": {
+    "appName": "Avatar Drawing",
+    "loading": "Loading...",
+    "generating": "Generating...",
+    "generate": "Generate",
+    "apply": "Apply",
+    "cancel": "Cancel",
+    "download": "Download",
+    "crop": "Crop",
+    "templates": "Templates",
+    "confirmReplaceImage": "Uploading a new image will replace the current one."
+  },
+  "header": {
+    "title": "AI Avatar Generator",
+    "subtitle": "Upload photo, select template, generate personalized avatar"
+  },
+  "templateSection": {
+    "currentTemplate": "Current Template"
+  },
+  "templateSelection": {
+    "successMessage": "Template selected, prompt has been filled in"
+  },
+  "imageUploader": {
+    "dragDrop": "Drag and drop your image here",
+    "or": "or",
+    "browse": "Browse Files",
+    "supportedFormats": "Supported formats: JPG, PNG, WebP",
+    "errorType": "Please upload an image file.",
+    "errorSize": "Image size should be less than {{size}}MB.",
+    "errorDimensions": "Image dimensions should be at least {{width}}x{{height}} pixels."
+  },
+  "imageViewer": {
+    "noImage": "No image available"
+  },
+  "promptBar": {
+    "placeholder": "Enter a prompt to modify the image...",
+    "modifyPlaceholder": "Describe how to modify your avatar...",
+    "templatePlaceholder": "Describe how to modify your template...",
+    "enhancePlaceholder": "Enhance or modify your generated avatar..."
+  },
+  "cropTool": {
+    "title": "Crop Image",
+    "square": "Square",
+    "circle": "Circle"
+  },
+  "retouchTool": {
+    "title": "Retouch Image",
+    "promptPlaceholder": "Describe what to change at this point...",
+    "keepSubject": "Keep subject at this point",
+    "removeSubject": "Remove subject at this point"
+  },
+  "templateSelector": {
+    "title": "Select National Day Template",
+    "subtitle": "Choose from 30 National Day themed templates",
+    "selectPlaceholder": "Select a template..."
+  },
+  "promptBar": {
+    "placeholder": "Enter a prompt to modify the image...",
+    "modifyPlaceholder": "Describe how to modify your avatar...",
+    "templatePlaceholder": "Describe how to modify your template...",
+    "enhancePlaceholder": "Enhance or modify your generated avatar...",
+    "personalizeTitle": "Personalize Your Avatar",
+    "personalizeDescription": "Add your personal requirements, we'll combine with template prompt",
+    "personalizePrompt": "Describe your personalization..."
+  },
+  "templateSection": {
+    "title": "Avatar Template",
+    "noTemplate": "No template selected"
+  },
+  "avatarSection": {
+    "title": "Your Photo",
+    "noImage": "Upload your photo"
+  },
+  "generatedSection": {
+    "title": "Generated Avatar",
+    "noImageYet": "Your generated avatar will appear here",
+    "generateAvatar": "Generate Avatar",
+    "needBothImages": "Please upload both a template and a photo to generate an avatar."
+  }
+}
